@@ -1,0 +1,139 @@
+.BannerImage {
+    padding: 0;
+    background-image:url('../../assets/bg-Black.png');
+    background-size:cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #000;
+    border-top: 1px solid #636363;
+    background-attachment: fixed; /*parallex effect*/
+    background-position: center;
+    padding: 100px 0;
+}
+.SubmitButton{
+    margin-top: 20px;
+    color: #dbdbdb !important;
+    padding: 0px !important;
+    border-radius: 30px !important;
+    perspective: 1px !important;
+    border-collapse: separate !important; 
+    overflow: visible;
+    width: 181px;
+    height: 51px;
+    border: 1px solid transparent;
+    font-size: 16pt;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s linear;
+    font-weight: bold;
+    background: linear-gradient(#000,#000) content-box,
+    linear-gradient(12deg,rgb(174, 134, 37) 0%,rgb(247, 239, 138) 42%,rgb(210, 172, 71) 79%,rgb(237, 201, 103) 100%) border-box !important ;
+    font-weight: 400 !important;
+  }
+  .phoneNumber{
+
+    font-size: 45px !important;
+    line-height: 55px;
+    background: -webkit-linear-gradient( 12deg, rgb(174,134,37) 0%, rgb(247,239,138) 42%, rgb(210,172,71) 79%, rgb(237,201,103) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0 0 30px 0;
+  }
+
+
+.review-section-text{
+    padding:15px 0;
+    text-align: center;
+}
+.review-section-text h2{
+    color: #ffffff;
+    padding: 0 0 10px 0;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+
+}
+.review-section-text p{
+    font-size: 15px;
+    line-height: 25px;
+    width: 70%;
+    color: #fff;
+    padding: 0 0 20px 0;
+    margin: 0 auto;
+}
+
+.ClientsSection{
+    text-align: center;
+    padding-top: 80px;
+}
+.ClientsSection h6{
+    color: #ae8625;
+    display: block;
+    font-weight: normal;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.ClientsSection h2{
+    color: #fff;
+    padding: 0 0 60px 0;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+}
+
+.testimonial-wrap {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(99, 99, 99);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    min-height: 480px;
+}
+.testimonial-wrap img {
+    margin: 0 auto;
+}
+.testimonial-wrap img {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.testimonial-wrap h5{
+    padding: 0 !important;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Work Sans';
+    padding: 0 0 10px 0;
+    margin: 0 !important;
+    display: block;
+    font-weight: normal;
+}
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 30px 0;
+    list-style: none;
+}
+.iconStyle{
+    color:rgb(210, 172, 71) ;
+    padding: 0 10px 0 0 !important;
+    font-weight: 900 !important;
+    
+}
+.testimonial-wrap p {
+    color: #fff;
+    padding: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    display: block;
+}

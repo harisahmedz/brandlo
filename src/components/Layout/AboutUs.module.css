@@ -1,0 +1,165 @@
+.BannerImage {
+
+    background-image:url('../../assets/chacha-bg.png');
+    background-size:contain;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    background-color: #000;
+    background-attachment:fixed ;
+    z-index: 99;
+    
+}
+
+.SubmitButton{
+    margin-top: 10px;
+    color: #dbdbdb !important;
+    padding: 0px !important;
+    border-radius: 30px !important;
+    perspective: 1px !important;
+    border-collapse: separate !important; 
+    overflow: visible;
+    width: 181px;
+    height: 51px;
+    border: 1px solid transparent;
+    font-size: 16pt;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s linear;
+    font-weight: bold;
+    background: linear-gradient(#000,#000) content-box,
+    linear-gradient(12deg,rgb(174, 134, 37) 0%,rgb(247, 239, 138) 42%,rgb(210, 172, 71) 79%,rgb(237, 201, 103) 100%) border-box !important ;
+    font-weight: 400 !important;
+  }
+
+  .about-text{
+    padding-top: 150px;
+  }
+  .about-text h2 {
+    color: #fff;
+    padding: 0 0 20px 0;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+}
+.about-text h6 {
+    color: #ae8625;
+    display: block;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.about-text p {
+    color: #fff;
+    padding: 0 0 30px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    display: block;
+}
+
+@media screen and (max-width:1450px) and (min-width:1230px){
+    .BannerImage{
+      background: url("../../assets/chacha-bg.png") no-repeat left;
+      overflow: hidden;
+      transition: 1s;
+      margin:0px 0px 0px -25%;
+    }
+    .about-text{
+      padding-top: 80px;
+    }
+    .about-text h2{
+      font-size: 35px;
+    }
+    .about-text p{
+      font-size: 16px;
+    }
+
+
+}
+@media screen and (max-width:1230px) and (min-width:990px){
+  .BannerImage{
+    background: url("../../assets/chacha-bg.png") no-repeat left;
+    overflow: hidden;
+
+    margin:0px 0px 0px -35%;
+    transition: 1s;
+  }
+  .about-text{
+    padding-top: 50px;
+  }
+  .about-text h2{
+    font-size: 35px;
+  }
+  .about-text p{
+    font-size: 16px;
+  }
+
+
+}
+@media screen and (max-width:990px) and (min-width:899px){
+  .BannerImage{
+    background: url("../../assets/chacha-bg.png") no-repeat left;
+    overflow: hidden;
+
+    margin:0px 0px 0px -45%;
+  }
+  .about-text{
+    padding-top: 50px;
+  }
+  .about-text h2{
+    font-size: 35px;
+  }
+  .about-text p{
+    font-size: 16px;
+  }
+
+
+}
+
+@media screen and (max-width:899px) and (min-width:768px){
+  .BannerImage{
+    background: url("../../assets/chacha-bg.png") no-repeat left;
+    overflow: hidden;
+    transition: 1s;
+    margin:0px 0px 0px -68%;
+  }
+  .about-text{
+    padding-top: 50px;
+  }
+  .about-text h2{
+    font-size: 35px;
+  }
+  .about-text p{
+    font-size: 16px;
+  }
+
+
+}
+@media screen and (max-width:768px){
+  .BannerImage{
+    background:none;
+    overflow: hidden;
+    margin:0px 0px 0px 0;
+    text-align: center;
+  }
+  .about-text{
+    padding-top: 50px;
+  }
+  .about-text h2{
+    font-size: 30px;
+  }
+  .about-text p{
+    font-size: 14px;
+    padding: 0 0 15px 0;
+  }
+
+
+}
+
+
+
+

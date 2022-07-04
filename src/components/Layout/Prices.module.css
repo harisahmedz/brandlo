@@ -1,0 +1,188 @@
+.BannerImage {
+    padding: 0;
+    background-image:url('../../assets/bg-Black.png');
+    background-size:cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #000;
+
+    background-attachment: fixed; /*parallex effect*/
+    background-position: center;
+    padding: 100px 0;
+}
+
+.serviceText{
+    text-align: center;
+
+}
+
+.serviceText h6{
+    color: #ae8625;
+    display: block;
+    font-weight: normal;
+
+}
+
+.serviceText h2{
+    color: #ffffff;
+    padding: 0 0 10px 0;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: 'Work Sans';
+    font-weight:lighter;
+
+}
+.package-wrap{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(174,134,37);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0);
+    padding: 0px 18px;
+    z-index: 50;
+    position: relative;
+    margin: 0 0 30px 0;
+}
+.package-btn{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    right: 0;
+    font-weight: 700;
+    outline: none;
+    font-family: inherit;
+    margin: 0px 0 0 0;
+    display: block;
+    text-align: center !important;
+    width: 70%;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3em;
+    height: 2.75em;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    padding: 0 1em;
+    background-image:  linear-gradient(12deg,#ae8625 0%, #f7ef8a 420%,#d2ac47 79%,#edc967 100%);
+    border: 1px solid #a55d07;
+    text-shadow: 0 2px 2px rgb(250 227 133);
+
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0 auto;
+
+}
+.package-text {
+    text-align: center;
+    padding: 50px 0 10px;
+}
+.package-text h2{
+    color: #fff;
+    padding: 0 0 0px 0;
+    font-size: 45px;
+    line-height: 50px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+
+}
+.package-text h5 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: line-through;
+    font-family: 'Work Sans';
+}
+.package-list{
+    column-count: 1;
+    padding: 0 0px 0px 20px !important;
+    list-style: none;
+    color: #d2d2d2 !important;
+    font-size: 14px !important;
+    font-family: 'Work Sans' !important;
+}
+
+.package-list li:hover{
+    cursor: pointer;
+}
+.iconStyle{
+    color:rgb(210, 172, 71) ;
+    padding: 0 10px 0 0 !important;
+    font-weight: 900 !important;
+    
+}
+.package-btn2{
+
+    color: #dbdbdb !important;
+    padding: 0px !important;
+    border-radius: 30px !important;
+    perspective: 1px !important;
+    border-collapse: separate !important; 
+    overflow: hidden;
+    width: 100%;
+    height: 41px;
+    max-width: 151px;
+    border: 1px solid transparent;
+    font-size: 16pt;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s linear;
+    font-weight: bold;
+    background: linear-gradient(#000,#000) content-box,
+    linear-gradient(12deg,#ae8625 0%, #f7ef8a 420%,#d2ac47 79%,#edc967 100%) border-box !important ;
+    font-weight: 400 !important;
+}
+
+ .transparent{
+    color: #dbdbdb !important;
+    padding: 0px !important;
+    border-radius: 30px !important;
+    perspective: 1px !important;
+    border-collapse: separate !important; 
+    overflow: hidden;
+    width: 100%;
+    height: 41px;
+    max-width: 151px;
+    border: 1px solid transparent;
+    font-size: 16pt;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s linear;
+    font-weight: 400 !important;
+    background: transparent;
+    border: 1px solid #636363;
+}
+.package-info2{
+    text-align: center;
+    padding: 15px 0px;
+}
+.package-info2 p {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Work Sans';
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.package-info2 h6{
+    font-size: 15px;
+    line-height: 28px;
+    color: #876c25;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.buttonWrapper{
+    border-top: 1px solid #636363;
+    border-bottom: 1px solid #636363;
+    padding: 15px 0px !important;
+    text-align: center;
+}
+.borderRight{
+    border-right: 1px solid #636363;
+}
+
+

@@ -1,0 +1,12 @@
+.BannerImage {
+
+    background-image:url('../../../assets/hero-banner.png');
+    background-size: auto 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-color: #000;
+    
+}
+

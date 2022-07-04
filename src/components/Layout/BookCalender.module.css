@@ -1,0 +1,40 @@
+.headline{
+    background-color: #101010 !important;
+    border-top: 1px solid #636363;
+    border-bottom: 1px solid #636363;
+}
+
+.headline h2{
+    color: #dbdbdb !important;
+   font-weight: 200 !important;
+    font-size: 35px !important;
+    font-family: "Work Sans", sans-serif !important;
+}
+.headline p{
+    color: #dbdbdb !important;
+    font-family: "Work Sans", sans-serif !important;
+    font-weight: 200 !important;
+    font-size: 15px !important;
+}
+.SubmitButton{
+    margin-top: 10px;
+    color: #dbdbdb !important;
+    padding: 0px !important;
+    border-radius: 30px !important;
+    perspective: 1px !important;
+    border-collapse: separate !important; 
+    overflow: hidden;
+    width: 181px;
+    height: 51px;
+    border: 1px solid transparent;
+    font-size: 16pt;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s linear;
+    font-weight: bold;
+    background: linear-gradient(#000,#000) content-box,
+    linear-gradient(12deg,rgb(174, 134, 37) 0%,rgb(247, 239, 138) 42%,rgb(210, 172, 71) 79%,rgb(237, 201, 103) 100%) border-box !important ;
+    font-weight: 400 !important;
+  }
+  

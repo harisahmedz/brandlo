@@ -1,0 +1,37 @@
+.bgImage{
+    padding: 0;
+    background-image:url('../../assets/hero-banner.png');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-color: #000;
+    border-top: 1px solid #636363;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    background-color: #000;
+    padding: 150px 0;
+
+}
+.bgImage h2{
+    text-align: center;
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 48px;
+    text-transform: capitalize;
+    background: -webkit-linear-gradient(
+      12deg,
+      rgb(174, 134, 37) 0%,
+      rgb(247, 239, 138) 42%,
+      rgb(210, 172, 71) 79%,
+      rgb(237, 201, 103) 100%
+    );
+    width:400px;
+    padding: 0 0 15px 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(247, 239, 138);
+    margin: 0 auto;
+}

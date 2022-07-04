@@ -1,0 +1,81 @@
+.Footer{
+    background-color: #101010;
+    padding: 10px 0px;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    border-bottom-color: rgb(66, 66, 66) !important;
+    border-top-style: solid !important;
+    border-top-width: 1px !important;
+    border-top-color: rgb(66, 66, 66) !important;   
+}
+
+
+.brandlo-footer-img img {
+    padding: 0 0 20px 0;
+    max-width: 140px;
+    height: auto;
+
+
+}
+
+.brandlo-footer-img p {
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(66, 66, 66);
+    font-family: "Work Sans" !important;
+    font-weight:400;
+}
+.brandlo-footer-heading h2{
+    font-size: 29px;
+    line-height: 35px;
+    color: #d2d2d2;
+    padding: 0 0 10px 0;
+    font-weight: 300 !important;
+}
+.brandlo-footer-heading .link {
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(66, 66, 66);
+    font-family: "Work Sans" !important;
+    font-weight:400;
+    text-decoration: none;
+}
+.brandlo-footer-heading p{
+    padding: 0 !important;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(66, 66, 66);
+    font-family: "Work Sans" !important;
+    font-weight:400;
+    text-decoration: none;
+}
+.footer-line{
+    background-color: #101010;
+}
+.footer-line p{
+    padding: 0 !important;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgb(66, 66, 66);
+    font-family: "Work Sans" !important;
+    font-weight:400;
+    text-decoration: none;
+}
+.brandImage{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandImage div{
+    max-width: 120px;
+}
+.brandImage img{
+    
+    filter: grayscale(1);
+    transition: 0.4s;
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+}

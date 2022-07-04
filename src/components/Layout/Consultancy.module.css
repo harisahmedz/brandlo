@@ -1,0 +1,79 @@
+.headline{
+    background-color: #101010 !important;
+    border-top: 1px solid #636363;
+    border-bottom: 1px solid #636363;
+    max-height: 220px;
+}
+
+.headline h2{
+    color: #dbdbdb !important;
+   font-weight: 200 !important;
+    font-size: 45px !important;
+    font-family: "Work Sans", sans-serif !important;
+}
+.ConButton p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #b48a22;
+    margin: 0 10px;
+    font-weight:300 ;
+}
+.ConButton{
+    padding: 10px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+.buttonPosition{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    right: 0;
+}
+.SubmitButton{
+    margin-top: 28px;
+    color: #dbdbdb !important;
+    padding: 0px !important;
+    border-radius: 30px !important;
+    perspective: 1px !important;
+    border-collapse: separate !important; 
+    overflow: visible;
+    width: 151px;
+    height: 41px;
+    border: 1px solid transparent;
+    font-size: 16pt;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s linear;
+    font-weight: bold;
+    background: linear-gradient(#000,#000) content-box,
+    linear-gradient(12deg,rgb(174, 134, 37) 0%,rgb(247, 239, 138) 42%,rgb(210, 172, 71) 79%,rgb(237, 201, 103) 100%) border-box !important ;
+    font-weight: 400 !important;
+  }
+  
+  .consultantInfo{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(99, 99, 99);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 0px !important;
+  }
+
+  .consultantInfoimg {
+    transition: 0.4s;
+}
+
+.consultantInfo img {
+    max-width: 100%;
+    height: auto;
+}

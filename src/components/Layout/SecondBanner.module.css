@@ -1,0 +1,135 @@
+.BannerImage {
+    padding: 0;
+    background-image:url('../../assets/bg4.png');
+    background-size:cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-color: #000;
+    border-top: 1px solid #636363;
+    background-attachment: fixed; /*parallex effect*/
+    background-position: center;
+    padding: 150px 0;
+}
+
+
+.women-text h2{
+    color: #fff !important;
+    padding: 0 0 10px 0 !important;
+    font-size: 45px !important;
+    line-height: 55px !important;
+    font-family: 'Work Sans' !important;
+    font-weight: 300 !important;
+}
+
+.women-text p{
+    color: #dbdbdb !important;
+    font-size: 17px !important;
+    line-height: 28px !important;
+    padding: 0 0 40px 0 !important;
+    font-weight: 300 !important;
+}
+.logo-list{
+    column-count: 2;
+    padding: 0 0 30px 0;
+    list-style: none;
+    color: #d2d2d2 !important;
+    font-size: 14px !important;
+    font-family: 'Work Sans' !important;
+}
+.logo-list li:hover{
+    cursor: pointer;
+}
+.iconStyle{
+    color:rgb(210, 172, 71) ;
+    padding: 0 10px 0 0 !important;
+    font-weight: 900 !important;
+    
+}
+.logo-wrap{
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 1px solid #636363;
+    margin: 0 0 15px 0;
+    flex-direction: column;
+    transition: 0.4s;
+}
+
+
+
+.logo-wrap svg{
+    vertical-align: middle;
+    fill: #636363;
+    height: 50px;
+    padding: 0 0 10px 0;
+    transition: 0.4s;
+
+}
+
+
+
+.logo-wrap p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #d2d2d2;
+    padding: 0 !important;
+    margin: 0!important;
+}
+.logo-wrap-2{
+    height: 275px;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: 1px solid #636363;
+    flex-direction: column;
+    margin: 0 0 0 3px;
+    margin-bottom: 13px;
+}
+.logo-wrap-2 svg{
+    vertical-align: middle;
+    fill: #636363;
+    height: 80px;
+    padding: 0 0 10px 0;
+    transition: 0.4s;
+}
+.logo-wrap-2  p{
+    font-size: 25px;
+    line-height: 35px;
+    color: #d2d2d2;
+    padding: 0 !important;
+    margin: 0!important;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .try{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .logo-wrap{
+        width: 45%;
+        margin-right: 12px;
+    }
+    .logo-wrap-2{
+        width: 92%;
+        justify-content: center;
+        margin-left: 12px;
+    }
+    .women-text{
+        margin-left:12px ;
+    }
+    .logo-list 
+    {
+        columns: 1;
+        margin-left: 12px;
+    }
+  }

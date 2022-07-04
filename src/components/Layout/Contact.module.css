@@ -1,0 +1,76 @@
+
+
+.contactText{
+    text-align: center;
+
+}
+
+.contactText h6{
+    color: #ae8625;
+    display: block;
+    font-weight: normal;
+
+}
+
+.contactText h2{
+    color: #ffffff;
+    padding: 0 0 10px 0;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: 'Work Sans';
+    font-weight:lighter;
+
+}
+.SubmitButton{
+    margin-top: 20px;
+    color: #dbdbdb !important;
+    padding: 0px !important;
+    border-radius: 30px !important;
+    perspective: 1px !important;
+    border-collapse: separate !important; 
+    overflow: visible;
+    width: 181px;
+    height: 51px;
+    border: 1px solid transparent;
+    font-size: 16pt;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    transition: all 0.2s linear;
+    font-weight: bold;
+    background: linear-gradient(#000,#000) content-box,
+    linear-gradient(12deg,rgb(174, 134, 37) 0%,rgb(247, 239, 138) 42%,rgb(210, 172, 71) 79%,rgb(237, 201, 103) 100%) border-box !important ;
+    font-weight: 400 !important;
+  }
+
+  .form-custom{
+    border: none !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;
+    border-bottom-color: rgb(66, 66, 66) !important;
+    background-color:transparent !important ;
+    border-radius: 0px !important;
+    color: #dbdbdb !important;
+    width: 100%  !important;
+    font-size: 16px;
+    font-weight: 500  !important;
+
+  }
+  .label{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.5s ease-in-out;
+    font-family: 'Work Sans';
+    color: white;
+    opacity:1 !important;
+
+  }
+  .form-custom:focus{
+    box-shadow: none !important;
+    outline: 0 none !important;
+
+    
+  }
+ 

@@ -1,0 +1,42 @@
+.headline{
+    background-color: #101010 !important;
+}
+
+.headline h2{
+    color: #dbdbdb !important;
+   font-weight: bold !important;
+    font-size: 35px !important;
+    font-family: "Work Sans", sans-serif !important;
+}
+.headline p{
+    color: #dbdbdb !important;
+    font-family: "Work Sans", sans-serif !important;
+    font-weight: 200 !important;
+    font-size: 15px !important;
+}
+.brandImage{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brandImage div{
+    max-width: 100px;
+}
+.brandImage img{
+    
+    filter: grayscale(1);
+    transition: 0.4s;
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+}
+.brandImage img:hover{
+    
+    filter: grayscale(0);
+    transition: 0.4s;
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+}

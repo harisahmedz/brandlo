@@ -1,0 +1,16 @@
+.headline{
+    background-color: #101010 !important;
+}
+
+.headline h2{
+    color: #dbdbdb !important;
+   font-weight: 200 !important;
+    font-size: 35px !important;
+    font-family: "Work Sans", sans-serif !important;
+}
+.headline p{
+    color: #dbdbdb !important;
+    font-family: "Work Sans", sans-serif !important;
+    font-weight: 200 !important;
+    font-size: 15px !important;
+}

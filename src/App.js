@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React,{Suspense} from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+
+import About from './pages/About';
+import Layout from "./Layout";
+import LoadingSpinner from './components/UI/LoadingSpinner';
+
+
+const Home = React.lazy( () => import("./pages/Home") );
+const Packages = React.lazy( () => import("./pages/Packages") );
+const Portfolio = React.lazy( () => import("./pages/Portfolio") );
+const Contact = React.lazy( () => import("./pages/Contact") );
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <React.Fragment>
+      <Layout>
+      <Suspense
+          fallback={
+            <div className="centered">
+              <LoadingSpinner />
+            </div>
+          }
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/Packages" element={<Packages />} />
+          <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Aboutus" element={<About />} />
+          <Route path="/Contactus" element={<Contact />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+
+        </Suspense>
+      </Layout>
+    </React.Fragment>
   );
 }
 

@@ -1,0 +1,135 @@
+.contactForm {
+  padding-top: 150px !important;
+}
+
+.contactForm h1 {
+  line-height: 50px;
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: capitalize;
+  background: -webkit-linear-gradient(
+    12deg,
+    rgb(174, 134, 37) 0%,
+    rgb(247, 239, 138) 42%,
+    rgb(210, 172, 71) 79%,
+    rgb(237, 201, 103) 100%
+  );
+  padding: 0 0 10px 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1200px)  {
+  .contactForm h1 {
+    font-size: 40px;
+  }
+}
+
+
+.contactForm p {
+  width: 78%;
+  color: #dbdbdb;
+  padding: 0 0 13px 0;
+  font-size: 18px;
+  line-height: 28px;
+  display: block;
+  font-weight: normal;
+}
+.FormWrapper {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-radius: 20px 20px 20px 20px;
+  background-image: url("../../../assets/bg-body1.jpg");
+  width: 380px;
+  padding: 30px 15px;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 420px;
+    color: #dbdbdb !important;
+  border-color: rgb(66, 66, 66) !important;
+  margin: auto;
+}
+.FormWrapper h2 {
+  color: #dbdbdb;
+  border-bottom: 2px solid rgb(99, 99, 99);
+  padding: 0 0 25px 0;
+  margin: 0 0 30px 0;
+  font-size: 28px;
+  line-height: 30px;
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-weight: lighter;
+}
+.formControl {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: rgb(66, 66, 66) !important;
+  background-color: rgb(0, 0, 00) !important;
+  width: 350px !important;
+  height: 45px !important;
+  line-height: 54px !important;
+  padding: 0 15px !important;
+  border-radius: 30px !important;
+  margin: 0 0 6px 0 !important;
+  color: #ebde7a !important;
+  box-shadow: none !important;
+  color: #dbdbdb !important;
+}
+.textareaFormControl {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: rgb(66, 66, 66) !important;
+  background-color: rgb(0, 0, 00) !important;
+  width: 350px !important;
+  min-height: 45px !important;
+  line-height: 54px !important;
+  padding: 0 15px !important;
+  border-radius: 25px !important;
+  margin: 0 0 5px 0 !important;
+  color: #ebde7a !important;
+  box-shadow: none !important;
+  margin-bottom: 8px !important;
+}
+
+.formControl::placeholder {
+  color: #dbdbdb !important;
+  text-transform: capitalize;
+
+  font-weight: lighter;
+  font-size: 16px;
+}
+.SubmitButton{
+  margin-top: 10px;
+  color: #dbdbdb !important;
+  padding: 0px !important;
+  border-radius: 30px !important;
+  perspective: 1px !important;
+  border-collapse: separate !important; 
+  overflow: hidden;
+  width: 181px;
+  height: 51px;
+  border: 1px solid transparent;
+  font-size: 16pt;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+  transition: all 0.2s linear;
+  font-weight: bold;
+  background: linear-gradient(#000,#000) content-box,
+  linear-gradient(12deg,rgb(174, 134, 37) 0%,rgb(247, 239, 138) 42%,rgb(210, 172, 71) 79%,rgb(237, 201, 103) 100%) border-box !important ;
+  font-weight: 400 !important;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .contactForm {
+    padding-top: 150px !important;
+    margin: auto 0;
+  }
+  .contactForm p {
+    width: 100%;
+  }
+}
