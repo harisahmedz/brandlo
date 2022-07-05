@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brandlo/static/css/main.3a15e585.css",
-    "main.js": "/brandlo/static/js/main.2659d253.js",
+    "main.js": "/brandlo/static/js/main.e615a9ea.js",
     "static/css/993.7b8a24f0.chunk.css": "/brandlo/static/css/993.7b8a24f0.chunk.css",
     "static/js/993.c90864cd.chunk.js": "/brandlo/static/js/993.c90864cd.chunk.js",
     "static/css/167.c5e46a68.chunk.css": "/brandlo/static/css/167.c5e46a68.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/527.a427ecfe.chunk.js": "/brandlo/static/js/527.a427ecfe.chunk.js",
     "static/js/562.b5e79603.chunk.js": "/brandlo/static/js/562.b5e79603.chunk.js",
     "static/js/926.06d4f84b.chunk.js": "/brandlo/static/js/926.06d4f84b.chunk.js",
-    "static/js/688.92800468.chunk.js": "/brandlo/static/js/688.92800468.chunk.js",
+    "static/js/688.f240278a.chunk.js": "/brandlo/static/js/688.f240278a.chunk.js",
     "static/media/bg4.png": "/brandlo/static/media/bg4.cabdaffefaa7c2821ceb.png",
     "static/media/hero-banner.png": "/brandlo/static/media/hero-banner.4fb5304148bbdc10e0a0.png",
     "static/media/chacha-bg.png": "/brandlo/static/media/chacha-bg.cb9f47775907bc20512a.png",
@@ -34,7 +34,7 @@
     "static/media/Logo.png": "/brandlo/static/media/Logo.f879ad61ab642648d1a7.png",
     "index.html": "/brandlo/index.html",
     "main.3a15e585.css.map": "/brandlo/static/css/main.3a15e585.css.map",
-    "main.2659d253.js.map": "/brandlo/static/js/main.2659d253.js.map",
+    "main.e615a9ea.js.map": "/brandlo/static/js/main.e615a9ea.js.map",
     "993.7b8a24f0.chunk.css.map": "/brandlo/static/css/993.7b8a24f0.chunk.css.map",
     "993.c90864cd.chunk.js.map": "/brandlo/static/js/993.c90864cd.chunk.js.map",
     "167.c5e46a68.chunk.css.map": "/brandlo/static/css/167.c5e46a68.chunk.css.map",
@@ -43,10 +43,10 @@
     "527.a427ecfe.chunk.js.map": "/brandlo/static/js/527.a427ecfe.chunk.js.map",
     "562.b5e79603.chunk.js.map": "/brandlo/static/js/562.b5e79603.chunk.js.map",
     "926.06d4f84b.chunk.js.map": "/brandlo/static/js/926.06d4f84b.chunk.js.map",
-    "688.92800468.chunk.js.map": "/brandlo/static/js/688.92800468.chunk.js.map"
+    "688.f240278a.chunk.js.map": "/brandlo/static/js/688.f240278a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a15e585.css",
-    "static/js/main.2659d253.js"
+    "static/js/main.e615a9ea.js"
   ]
 }
